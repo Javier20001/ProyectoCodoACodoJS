@@ -86,91 +86,111 @@
     <script src="./js/main.js"></script>
     <script src="./js/menu.js"></script>
 
-    <section id="consulta-ventas">
-      <h2>Consulta de ventas</h2>
+    <section>
       <form action="#" method="post" class="seccion__formulario">
-        <div>
-          <label for="nombre-completo" class="formulario__label"
-            ><span>1. </span>Nombre completo</label
-          >
-        </div>
-        <div>
-          <input
-            type="text"
-            name="nombre-completo"
-            id="nombre-completo"
-            class="formulario__input"
-          />
-        </div>
+        <h2 class="formulario__titulo">Consulta de ventas</h2>
+        <div class="formulario__flex-contenedor">
+          <div class="contenedor__label-input">
+            <div class="contenedor__label">
+              <span>1. </span>
+              <label for="nombre-completo" class="formulario__label">
+                Nombre completo
+              </label>
+            </div>
+            <div class="contenedor__input">
+              <input
+                type="text"
+                name="nombre-completo"
+                id="nombre-completo"
+                class="formulario__input"
+              />
+            </div>
+          </div>
 
-        <div>
-          <label for="pregunta-1" class="formulario__label"
-            ><span>2. </span>¿Cuál de nuestros productos le interesaría?</label
-          >
-        </div>
-        <div>
-          <input
-            type="text"
-            name="pregunta-1"
-            id="pregunta-1"
-            class="formulario__input"
-          />
-        </div>
+          <div class="contenedor__label-input">
+            <div class="contenedor__label">
+              <span>2. </span
+              ><label for="pregunta-1" class="formulario__label">
+                ¿Cuál de nuestros productos le interesaría?
+              </label>
+            </div>
+            <div class="contenedor__input">
+              <input
+                type="text"
+                name="pregunta-1"
+                id="pregunta-1"
+                class="formulario__input"
+              />
+            </div>
+          </div>
 
-        <div>
-          <label for="pregunta-2" class="formulario__label"
-            ><span>3. </span>Cuéntenos más sobre lo que le gustaría para que
-            podamos encontrar el producto perfecto para sus necesidades</label
-          >
-        </div>
-        <div>
-          <input
-            type="text"
-            name="pregunta-2"
-            id="pregunta-2"
-            class="formulario__input"
-          />
-        </div>
+          <div class="contenedor__label-input">
+            <div class="contenedor__label">
+              <span>3. </span>
+              <label for="pregunta-2" class="formulario__label">
+                Cuéntenos más sobre lo que le gustaría para que podamos
+                encontrar el producto perfecto para sus necesidades
+              </label>
+            </div>
+            <div class="contenedor__input">
+              <input
+                type="text"
+                name="pregunta-2"
+                id="pregunta-2"
+                class="formulario__input"
+              />
+            </div>
+          </div>
 
-        <div>
-          <label for="telefono" class="formulario__label"
-            ><span>4. </span>Número de teléfono</label
-          >
-        </div>
-        <div>
-          <input
-            type="tel"
-            name="telefono"
-            id="telefono"
-            class="formulario__input"
-          />
-        </div>
+          <div class="contenedor__label-input">
+            <div class="contenedor__label">
+              <span>4. </span
+              ><label for="telefono" class="formulario__label">
+                Número de teléfono
+              </label>
+            </div>
+            <div class="contenedor__input">
+              <input
+                type="tel"
+                name="telefono"
+                id="telefono"
+                class="formulario__input"
+              />
+            </div>
+          </div>
 
-        <div>
-          <label for="fecha-disponible" class="formulario__label"
-            ><span>5. </span>Fecha disponible para una llamada</label
-          >
-        </div>
-        <div>
-          <input
-            type="date"
-            name="fecha-disponible"
-            id="fecha-disponible"
-            class="formulario__input"
-          />
-        </div>
+          <div class="contenedor__label-input">
+            <div class="contenedor__label">
+              <span>5. </span
+              ><label for="fecha-disponible" class="formulario__label">
+                Fecha disponible para una llamada
+              </label>
+            </div>
+            <div class="contenedor__input">
+              <input
+                type="date"
+                name="fecha-disponible"
+                id="fecha-disponible"
+                class="formulario__input"
+              />
+            </div>
+          </div>
 
-        <div>
-          <label for="email" class="formulario__label"
-            ><span>6.</span> Dirección de correo electrónico</label
-          >
-        </div>
-        <div>
-          <input type="email" id="email" class="formulario__input" />
-        </div>
+          <div class="contenedor__label-input">
+            <div class="contenedor__label">
+              <span>6.</span
+              ><label for="email" class="formulario__label">
+                Dirección de correo electrónico
+              </label>
+            </div>
+            <div class="contenedor__input">
+              <input type="email" id="email" class="formulario__input" />
+            </div>
+          </div>
 
-        <div>
-          <button type="submit">Enviar</button>
+          <div class="boton">
+            <button type="submit" class="form__boton">Enviar</button>
+          </div>
         </div>
       </form>
     </section>
