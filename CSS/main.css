@@ -15,7 +15,7 @@ html {
 .back-to-top {
 	position: fixed;
 	bottom: 2rem;
-	right: 2rem;
+	right: 0.9rem;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
