@@ -19,7 +19,7 @@ html {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #dc143c;
+	background-color: #0f0dad;
 	border-radius: 0.5rem;
 	padding: 0.5rem;
 	text-decoration: none;
@@ -28,12 +28,12 @@ html {
 
 .back-to-top span {
 	color: #fff;
-	font-size: 3rem;
+	font-size: 2rem;
 	transition: 0.2s ease-out;
 }
 
 .back-to-top:hover {
-	background-color: #be1a3b;
+	background-color: #8b12af;
 }
 .back-to-top:hover span {
 	transform: translateY(-4px);
