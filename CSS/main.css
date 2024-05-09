@@ -319,6 +319,7 @@ main {
 /*** FORMULARIO ***/
 .seccion__formulario {
     background-color: #262a5f;
+    padding-bottom: 30px;
   }
   
   .formulario__titulo {
@@ -379,12 +380,45 @@ main {
     border-radius: 999px;
     font-size: 1em;
   }
+/*** MAP ***/
+.section__map {
+    background-color: #262a5f;
+}
+
+.contenedor__map {
+    width: 80%;
+    margin: 0px auto;
+    padding: 5px;
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 5px;
+  }
+  
+  .map__items-1 {
+    align-self: center;
+  }
+  
+  .direccion__parrafo {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+  
+  .map__items-2 {
+    padding: 10px;
+    height: 250px;
+    width: 400px;
+  }
 
 /*** MEDIA QUERIES ***/
 
 @media screen and (max-width: 850px) {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .contenedor__map{
+        width: 90%;
     }
 }
 
